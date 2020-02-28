@@ -1,0 +1,806 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book Python课程讲义 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>英雄飞机装备子弹并发射 | Python课程讲义</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="python">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../3/33.html" />
+    
+    
+    <link rel="prev" href="../2/5.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="0.2.6"
+        data-chapter-title="英雄飞机装备子弹并发射"
+        data-filepath="2/6.md"
+        data-basepath=".."
+        data-revision="Mon Nov 20 2017 10:44:56 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        飞机大战
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="1/11.html">
+            
+                
+                    <a href="../1/11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        Pygame介绍
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1.1" data-path="1/2.html">
+            
+                
+                    <a href="../1/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.1.</b>
+                        
+                        导入与初始化
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.2" data-path="1/7.html">
+            
+                
+                    <a href="../1/7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.</b>
+                        
+                        窗口相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.3" data-path="1/3.html">
+            
+                
+                    <a href="../1/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.3.</b>
+                        
+                        图像相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.4" data-path="1/1.html">
+            
+                
+                    <a href="../1/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.4.</b>
+                        
+                        事件相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.5" data-path="1/4.html">
+            
+                
+                    <a href="../1/4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.5.</b>
+                        
+                        音效相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.6" data-path="1/6.html">
+            
+                
+                    <a href="../1/6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.6.</b>
+                        
+                        文字相关操作
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="2/22.html">
+            
+                
+                    <a href="../2/22.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        飞机大战模块开发
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.2.1" data-path="2/1.html">
+            
+                
+                    <a href="../2/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.1.</b>
+                        
+                        战前准备工作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.2" data-path="2/2.html">
+            
+                
+                    <a href="../2/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.2.</b>
+                        
+                        基本的游戏窗口
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.3" data-path="2/3.html">
+            
+                
+                    <a href="../2/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.3.</b>
+                        
+                        游戏中的事件监听
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.4" data-path="2/4.html">
+            
+                
+                    <a href="../2/4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.4.</b>
+                        
+                        添加游戏背景图片
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.5" data-path="2/5.html">
+            
+                
+                    <a href="../2/5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.5.</b>
+                        
+                        英雄飞机闪亮登场
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="0.2.6" data-path="2/6.html">
+            
+                
+                    <a href="../2/6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.6.</b>
+                        
+                        英雄飞机装备子弹并发射
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="3/33.html">
+            
+                
+                    <a href="../3/33.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        飞机大战模块化处理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.3.1" data-path="3/1.html">
+            
+                
+                    <a href="../3/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.1.</b>
+                        
+                        飞机大战主模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.2" data-path="3/2.html">
+            
+                
+                    <a href="../3/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.2.</b>
+                        
+                        飞机大战地图模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.3" data-path="3/3.html">
+            
+                
+                    <a href="../3/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.3.</b>
+                        
+                        英雄飞机模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.4" data-path="3/4.html">
+            
+                
+                    <a href="../3/4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.4.</b>
+                        
+                        英雄飞机子弹模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.5" data-path="3/5.html">
+            
+                
+                    <a href="../3/5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.5.</b>
+                        
+                        敌机模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.6" data-path="3/6.html">
+            
+                
+                    <a href="../3/6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.6.</b>
+                        
+                        分数模块
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="4/44.html">
+            
+                
+                    <a href="../4/44.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        示例图
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.4.1" data-path="4/1.html">
+            
+                
+                    <a href="../4/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.1.</b>
+                        
+                        python中的坐标系
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4.2" data-path="4/2.html">
+            
+                
+                    <a href="../4/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.2.</b>
+                        
+                        游戏效果剖析演示
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4.3" data-path="4/3.html">
+            
+                
+                    <a href="../4/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.3.</b>
+                        
+                        游戏元素图层结构剖析演示
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Python课程讲义</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="&#x82F1;&#x96C4;&#x98DE;&#x673A;&#x88C5;&#x5907;&#x5B50;&#x5F39;&#x5E76;&#x53D1;&#x5C04;">&#x82F1;&#x96C4;&#x98DE;&#x673A;&#x88C5;&#x5907;&#x5B50;&#x5F39;&#x5E76;&#x53D1;&#x5C04;</h3>
+<hr>
+<pre><code class="lang-py"><span class="hljs-comment"># &#x5BFC;&#x5165;&#x6A21;&#x5757;</span>
+<span class="hljs-keyword">import</span> pygame
+<span class="hljs-keyword">import</span> random
+<span class="hljs-keyword">import</span> sys
+
+<span class="hljs-comment"># &#x5B9A;&#x4E49;&#x5E38;&#x91CF; &#x8BB0;&#x5F55;&#x7A97;&#x53E3;&#x7684;&#x5BBD;&#x548C;&#x9AD8;</span>
+WINDOW_WIDTH = <span class="hljs-number">512</span>
+WINDOW_HEIGHT = <span class="hljs-number">768</span>
+
+<span class="hljs-comment"># &#x81EA;&#x5B9A;&#x4E49;&#x5B50;&#x5F39;&#x7C7B;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PlaneBullet</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-comment"># &#x6784;&#x9020;&#x51FD;&#x6570;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x52A0;&#x8F7D;&#x5B50;&#x5F39;&#x56FE;&#x7247;</span>
+        self.img = pygame.image.load(<span class="hljs-string">&quot;res/bullet_14.png&quot;</span>)
+        <span class="hljs-comment"># &#x83B7;&#x53D6;&#x5B50;&#x5F39;&#x7684;&#x77E9;&#x5F62;</span>
+        self.img_rect = self.img.get_rect()
+        <span class="hljs-comment"># &#x5B50;&#x5F39;&#x901F;&#x5EA6;</span>
+        self.speed = <span class="hljs-number">4</span>
+        <span class="hljs-comment"># &#x662F;&#x5426;&#x53D1;&#x5C04;</span>
+        self.is_shot = <span class="hljs-keyword">False</span>
+
+    <span class="hljs-comment"># &#x5B50;&#x5F39;&#x5411;&#x4E0A;&#x79FB;&#x52A8;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">move_up</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x5F00;&#x59CB;&#x79FB;&#x52A8;</span>
+        self.img_rect.move_ip(<span class="hljs-number">0</span>, -self.speed)
+        <span class="hljs-comment"># &#x5224;&#x65AD;&#x5982;&#x679C;&#x5B50;&#x5F39;&#x8D85;&#x51FA;&#x7A97;&#x53E3; &#x8BBE;&#x7F6E;&#x4E3A;False</span>
+        <span class="hljs-keyword">if</span> self.img_rect[<span class="hljs-number">1</span>] &lt;= - self.img_rect[<span class="hljs-number">3</span>]:
+            self.is_shot = <span class="hljs-keyword">False</span>
+
+
+<span class="hljs-comment"># &#x81EA;&#x5B9A;&#x4E49;&#x82F1;&#x96C4;&#x98DE;&#x673A;&#x7C7B;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HeroPlane</span><span class="hljs-params">(object)</span>:</span>
+    <span class="hljs-comment"># &#x6784;&#x9020;&#x51FD;&#x6570;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x52A0;&#x8F7D;&#x98DE;&#x673A;&#x56FE;&#x7247;</span>
+        self.img = pygame.image.load(<span class="hljs-string">&quot;res/hero2.png&quot;</span>)
+        <span class="hljs-comment"># &#x83B7;&#x53D6;&#x98DE;&#x673A;&#x56FE;&#x7247;&#x77E9;&#x5F62;</span>
+        self.img_rect = self.img.get_rect()
+        <span class="hljs-comment"># &#x5728;&#x539F;&#x57FA;&#x7840;&#x57FA;&#x7840;&#x4E0A; &#x79FB;&#x52A8;&#x6307;&#x5B9A;&#x7684;&#x504F;&#x79FB;&#x91CF;(x, y)</span>
+        self.img_rect.move_ip((WINDOW_WIDTH - self.img_rect[<span class="hljs-number">2</span>])/<span class="hljs-number">2</span>, WINDOW_HEIGHT - self.img_rect[<span class="hljs-number">3</span>] - <span class="hljs-number">30</span>)
+        <span class="hljs-comment"># &#x98DE;&#x673A;&#x7684;&#x901F;&#x5EA6;</span>
+        self.speed = <span class="hljs-number">2</span>
+        <span class="hljs-comment"># &#x98DE;&#x673A;&#x88C5;&#x8F7D;&#x5F39;&#x5939; &#x5B50;&#x5F39;&#x662F;&#x98DE;&#x673A;&#x7684;&#x4E00;&#x90E8;&#x5206;</span>
+        self.bullet_list = [PlaneBullet() <span class="hljs-keyword">for</span> _ <span class="hljs-keyword">in</span> range(<span class="hljs-number">10</span>)]
+
+    <span class="hljs-comment"># &#x5411;&#x4E0A;&#x79FB;&#x52A8;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">move_up</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.img_rect[<span class="hljs-number">1</span>] &gt; <span class="hljs-number">0</span>:
+            self.img_rect.move_ip(<span class="hljs-number">0</span>, -self.speed)
+
+    <span class="hljs-comment"># &#x5411;&#x4E0B;&#x79FB;&#x52A8;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">move_down</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.img_rect[<span class="hljs-number">1</span>] &lt; WINDOW_HEIGHT - self.img_rect[<span class="hljs-number">3</span>]:
+            self.img_rect.move_ip(<span class="hljs-number">0</span>, self.speed)
+    <span class="hljs-comment"># &#x5411;&#x5DE6;&#x79FB;&#x52A8;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">move_left</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.img_rect[<span class="hljs-number">0</span>] &gt; <span class="hljs-number">0</span>:
+            self.img_rect.move_ip(-self.speed, <span class="hljs-number">0</span>)
+
+    <span class="hljs-comment"># &#x5411;&#x53F3;&#x79FB;&#x52A8;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">move_right</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-keyword">if</span> self.img_rect[<span class="hljs-number">0</span>] &lt; WINDOW_WIDTH - self.img_rect[<span class="hljs-number">2</span>]:
+            self.img_rect.move_ip(self.speed, <span class="hljs-number">0</span>)
+
+    <span class="hljs-comment"># &#x53D1;&#x5C04;&#x5B50;&#x5F39;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">shot</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x904D;&#x5386;&#x5F39;&#x5939;&#x5217;&#x8868;</span>
+        <span class="hljs-keyword">for</span> bullet <span class="hljs-keyword">in</span> self.bullet_list:
+            <span class="hljs-comment"># &#x5224;&#x65AD;&#x5B50;&#x5F39;&#x662F;&#x672A;&#x53D1;&#x5C04;&#x72B6;&#x6001;</span>
+            <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> bullet.is_shot:
+                <span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x5B50;&#x5F39;&#x7684;&#x5F00;&#x59CB;&#x4F4D;&#x7F6E;&#x5750;&#x6807;(x, y)</span>
+                bullet.img_rect[<span class="hljs-number">0</span>] = self.img_rect[<span class="hljs-number">0</span>] + (self.img_rect[<span class="hljs-number">2</span>] - bullet.img_rect[<span class="hljs-number">2</span>])/<span class="hljs-number">2</span>
+                bullet.img_rect[<span class="hljs-number">1</span>] = self.img_rect[<span class="hljs-number">1</span>] - bullet.img_rect[<span class="hljs-number">3</span>]
+                <span class="hljs-comment"># &#x5B50;&#x5F39;&#x8BBE;&#x7F6E;&#x4E3A;&#x5DF2;&#x53D1;&#x5C04;&#x72B6;&#x6001;</span>
+                bullet.is_shot = <span class="hljs-keyword">True</span>
+                <span class="hljs-comment"># &#x6BCF;&#x6B21;&#x53EA;&#x80FD;&#x53D1;&#x5C04;&#x4E00;&#x9897;</span>
+                <span class="hljs-keyword">break</span>
+
+
+<span class="hljs-comment"># &#x81EA;&#x5B9A;&#x4E49;&#x5730;&#x56FE;&#x7C7B;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">GameMap</span><span class="hljs-params">(object)</span>:</span>
+    <span class="hljs-comment"># &#x6784;&#x9020;&#x51FD;&#x6570;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x968F;&#x673A;&#x6570;</span>
+        self.num = str(random.randint(<span class="hljs-number">1</span>, <span class="hljs-number">5</span>))
+        <span class="hljs-comment"># &#x52A0;&#x8F7D;&#x56FE;&#x7247;&#x8D44;&#x6E90;</span>
+        self.bg_img1 = pygame.image.load(<span class="hljs-string">&quot;res/img_bg_level_&quot;</span> + self.num + <span class="hljs-string">&quot;.jpg&quot;</span>)
+        self.bg_img2 = pygame.image.load(<span class="hljs-string">&quot;res/img_bg_level_&quot;</span> + self.num + <span class="hljs-string">&quot;.jpg&quot;</span>)
+
+        <span class="hljs-comment"># &#x8BB0;&#x5F55;&#x4E24;&#x5F20;&#x56FE;&#x7247;&#x7684;y&#x8F74;&#x5750;&#x6807;</span>
+        self.img1_y = -WINDOW_HEIGHT
+        self.img2_y = <span class="hljs-number">0</span>
+
+        <span class="hljs-comment"># &#x5730;&#x56FE;&#x79FB;&#x52A8;&#x901F;&#x5EA6;</span>
+        self.speed = <span class="hljs-number">2</span>
+
+    <span class="hljs-comment"># &#x5730;&#x56FE;&#x5411;&#x4E0B;&#x79FB;&#x52A8;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">move</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x5982;&#x679C;&#x5DF2;&#x7ECF;&#x8D85;&#x51FA;&#x5C4F;&#x5E55;&#x540E; &#x5E94;&#x8BE5;&#x91CD;&#x7F6E;</span>
+        <span class="hljs-keyword">if</span> self.img1_y &gt;= <span class="hljs-number">0</span>:
+            self.img1_y = -WINDOW_HEIGHT
+            self.img2_y = <span class="hljs-number">0</span>
+
+        <span class="hljs-comment"># &#x6267;&#x884C;&#x5730;&#x56FE;&#x52A8;&#x753B;</span>
+        self.img1_y += self.speed
+        self.img2_y += self.speed
+
+
+<span class="hljs-comment"># &#x81EA;&#x5B9A;&#x4E49;&#x6E38;&#x620F;&#x7A97;&#x53E3;&#x7C7B;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">GameWindow</span><span class="hljs-params">(object)</span>:</span>
+    <span class="hljs-comment"># &#x6784;&#x9020;&#x51FD;&#x6570;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x521D;&#x59CB;&#x5316;pygame</span>
+        pygame.init()
+        <span class="hljs-comment"># &#x5B9E;&#x4F8B;&#x5316;&#x7A97;&#x53E3;&#x5BF9;&#x8C61;</span>
+        self.window = pygame.display.set_mode([WINDOW_WIDTH, WINDOW_HEIGHT])
+        <span class="hljs-comment"># &#x52A0;&#x8F7D;&#x8D44;&#x6E90;&#x56FE;&#x7247;</span>
+        self.icon_img = pygame.image.load(<span class="hljs-string">&quot;res/app.ico&quot;</span>)
+        <span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x7A97;&#x53E3;icon</span>
+        pygame.display.set_icon(self.icon_img)
+        <span class="hljs-comment"># &#x8BBE;&#x7F6E;&#x7A97;&#x53E3;&#x6807;&#x9898;</span>
+        pygame.display.set_caption(<span class="hljs-string">&quot;&#x98DE;&#x673A;&#x5927;&#x6218;&quot;</span>)
+
+        <span class="hljs-comment"># &#x5B9E;&#x4F8B;&#x5316;&#x5730;&#x56FE;&#x5BF9;&#x8C61;</span>
+        self.map = GameMap()
+        <span class="hljs-comment"># &#x5B9E;&#x4F8B;&#x5316;&#x82F1;&#x96C4;&#x98DE;&#x673A;&#x5BF9;&#x8C61;</span>
+        self.hero_plane = HeroPlane()
+
+    <span class="hljs-comment"># 1.&#x5904;&#x7406;&#x5404;&#x79CD;&#x77E9;&#x5F62;&#x5750;&#x6807;&#x79FB;&#x52A8;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">action</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x6267;&#x884C;&#x5730;&#x56FE;&#x52A8;&#x753B;</span>
+        self.map.move()
+        <span class="hljs-comment"># &#x6307;&#x5B9A;&#x5B50;&#x5F39;&#x52A8;&#x753B;</span>
+        <span class="hljs-keyword">for</span> bullet <span class="hljs-keyword">in</span> self.hero_plane.bullet_list:
+            <span class="hljs-keyword">if</span> bullet.is_shot:
+                bullet.move_up()
+
+    <span class="hljs-comment"># 2.&#x6839;&#x636E;&#x77E9;&#x5F62;&#x5750;&#x6807;&#xFF0C;&#x91CD;&#x65B0;&#x5BF9;&#x5143;&#x7D20;&#x8FDB;&#x884C;&#x7ED8;&#x5236;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">draw</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x6DFB;&#x52A0;&#x5730;&#x56FE;&#x56FE;&#x7247;</span>
+        self.window.blit(self.map.bg_img1, (<span class="hljs-number">0</span>, self.map.img1_y))
+        self.window.blit(self.map.bg_img2, (<span class="hljs-number">0</span>, self.map.img2_y))
+        <span class="hljs-comment"># &#x6DFB;&#x52A0;&#x82F1;&#x96C4;&#x98DE;&#x673A;</span>
+        self.window.blit(self.hero_plane.img, (self.hero_plane.img_rect[<span class="hljs-number">0</span>], self.hero_plane.img_rect[<span class="hljs-number">1</span>]))
+        <span class="hljs-comment"># &#x6DFB;&#x52A0;&#x5F39;&#x5939; &#x53EA;&#x7ED8;&#x5236;&#x5B50;&#x5F39;&#x72B6;&#x6001;&#x662F;&#x4EE5;&#x53D1;&#x5C04;&#x7684;</span>
+        <span class="hljs-keyword">for</span> bullet <span class="hljs-keyword">in</span> self.hero_plane.bullet_list:
+            <span class="hljs-keyword">if</span> bullet.is_shot:
+                self.window.blit(bullet.img, (bullet.img_rect[<span class="hljs-number">0</span>], bullet.img_rect[<span class="hljs-number">1</span>]))
+
+    <span class="hljs-comment"># 3.&#x5904;&#x7406;&#x7A97;&#x53E3;&#x4E2D;&#x7684;&#x76D1;&#x542C;&#x4E8B;&#x4EF6;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">event</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x83B7;&#x53D6;&#x6240;&#x6709;&#x76D1;&#x542C;&#x4E8B;&#x4EF6;&#x5217;&#x8868;</span>
+        event_list = pygame.event.get()
+        <span class="hljs-comment"># &#x904D;&#x5386;&#x5217;&#x8868;</span>
+        <span class="hljs-keyword">for</span> event <span class="hljs-keyword">in</span> event_list:
+            <span class="hljs-comment"># &#x76D1;&#x542C;&#x9F20;&#x6807;&#x9000;&#x51FA; -&gt; &#x9000;&#x51FA;&#x6E38;&#x620F;</span>
+            <span class="hljs-keyword">if</span> event.type == pygame.QUIT:
+                self.game_over()
+            <span class="hljs-comment"># &#x76D1;&#x542C;&#x6309;&#x94AE;&#x70B9;&#x51FB;</span>
+            <span class="hljs-keyword">if</span> event.type == pygame.KEYDOWN:
+                <span class="hljs-comment"># &#x5982;&#x679C;&#x662F;esc&#x952E; -&gt; &#x9000;&#x51FA;&#x6E38;&#x620F;</span>
+                <span class="hljs-keyword">if</span> event.key == pygame.K_ESCAPE:
+                    self.game_over()
+
+                <span class="hljs-comment"># &#x5982;&#x679C;&#x662F;&#x7A7A;&#x683C;&#x952E; -&gt; &#x53D1;&#x5C04;&#x5B50;&#x5F39;</span>
+                <span class="hljs-keyword">if</span> event.key == pygame.K_SPACE:
+                    self.hero_plane.shot()
+
+        <span class="hljs-comment"># &#x76D1;&#x542C;&#x4E0A;&#x4E0B;&#x5DE6;&#x53F3;&#x6309;&#x94AE;&#x70B9;&#x51FB;</span>
+        pressed = pygame.key.get_pressed()
+        <span class="hljs-comment"># up</span>
+        <span class="hljs-keyword">if</span> pressed[pygame.K_UP]:
+            self.hero_plane.move_up()
+        <span class="hljs-comment"># down</span>
+        <span class="hljs-keyword">if</span> pressed[pygame.K_DOWN]:
+            self.hero_plane.move_down()
+        <span class="hljs-comment"># left</span>
+        <span class="hljs-keyword">if</span> pressed[pygame.K_LEFT]:
+            self.hero_plane.move_left()
+        <span class="hljs-comment"># right</span>
+        <span class="hljs-keyword">if</span> pressed[pygame.K_RIGHT]:
+            self.hero_plane.move_right()
+
+    <span class="hljs-comment"># 4.&#x5237;&#x65B0;&#x7A97;&#x53E3;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">update</span><span class="hljs-params">(self)</span>:</span>
+        pygame.display.update()
+
+    <span class="hljs-comment"># &#x6E38;&#x620F;&#x7ED3;&#x675F;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">game_over</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x505C;&#x6B62;pygame&#x5F15;&#x64CE;</span>
+        pygame.quit()
+        <span class="hljs-comment"># &#x7ED3;&#x675F;&#x7A0B;&#x5E8F;</span>
+        sys.exit()
+
+
+    <span class="hljs-comment"># &#x5F00;&#x59CB;&#x6267;&#x884C;&#x7A0B;&#x5E8F;</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run</span><span class="hljs-params">(self)</span>:</span>
+        <span class="hljs-comment"># &#x6B7B;&#x5FAA;&#x73AF;</span>
+        <span class="hljs-keyword">while</span> <span class="hljs-keyword">True</span>:
+            <span class="hljs-comment"># &#x5904;&#x7406;&#x77E9;&#x5F62;&#x79FB;&#x52A8;</span>
+            self.action()
+            <span class="hljs-comment"># &#x7ED8;&#x5236;&#x5143;&#x7D20;</span>
+            self.draw()
+            <span class="hljs-comment"># &#x5904;&#x7406;&#x7A97;&#x53E3;&#x7684;&#x4E8B;&#x4EF6;&#x76D1;&#x542C;</span>
+            self.event()
+            <span class="hljs-comment"># &#x5237;&#x65B0;&#x7A97;&#x53E3;</span>
+            self.update()
+
+
+<span class="hljs-comment"># &#x7A0B;&#x5E8F;&#x7684;&#x5165;&#x53E3;</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-comment"># &#x5B9E;&#x4F8B;&#x5316;game</span>
+    game = GameWindow()
+    <span class="hljs-comment"># &#x6267;&#x884C;&#x7A0B;&#x5E8F;</span>
+    game.run()
+    print(<span class="hljs-string">&quot;&#x54C8;&#x54C8;&quot;</span>)
+
+
+<span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&apos;__main__&apos;</span>:
+    main()
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../2/5.html" class="navigation navigation-prev " aria-label="Previous page: 英雄飞机闪亮登场"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../3/33.html" class="navigation navigation-next " aria-label="Next page: 飞机大战模块化处理"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"disqus":{"shortName":"gitbookuse"},"github":{"url":"https://github.com/dododream"},"search-pro":{"cutWordLib":"nodejieba","defineWord":["gitbook-use"]},"sharing":{"weibo":true,"facebook":true,"twitter":true,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"base":"https://github.com/dododream/edit","label":"Edit This Page"},"splitter":{},"toggle-chapters":{},"highlight":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book Python课程讲义 -->
+</html>

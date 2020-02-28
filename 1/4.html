@@ -1,0 +1,603 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book Python课程讲义 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>音效相关操作 | Python课程讲义</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        <meta name="author" content="python">
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../1/6.html" />
+    
+    
+    <link rel="prev" href="../1/1.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="0.1.5"
+        data-chapter-title="音效相关操作"
+        data-filepath="1/4.md"
+        data-basepath=".."
+        data-revision="Mon Nov 20 2017 10:44:56 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        飞机大战
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="1/11.html">
+            
+                
+                    <a href="../1/11.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        Pygame介绍
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1.1" data-path="1/2.html">
+            
+                
+                    <a href="../1/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.1.</b>
+                        
+                        导入与初始化
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.2" data-path="1/7.html">
+            
+                
+                    <a href="../1/7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.2.</b>
+                        
+                        窗口相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.3" data-path="1/3.html">
+            
+                
+                    <a href="../1/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.3.</b>
+                        
+                        图像相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.4" data-path="1/1.html">
+            
+                
+                    <a href="../1/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.4.</b>
+                        
+                        事件相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="0.1.5" data-path="1/4.html">
+            
+                
+                    <a href="../1/4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.5.</b>
+                        
+                        音效相关操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.1.6" data-path="1/6.html">
+            
+                
+                    <a href="../1/6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.6.</b>
+                        
+                        文字相关操作
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="2/22.html">
+            
+                
+                    <a href="../2/22.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        飞机大战模块开发
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.2.1" data-path="2/1.html">
+            
+                
+                    <a href="../2/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.1.</b>
+                        
+                        战前准备工作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.2" data-path="2/2.html">
+            
+                
+                    <a href="../2/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.2.</b>
+                        
+                        基本的游戏窗口
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.3" data-path="2/3.html">
+            
+                
+                    <a href="../2/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.3.</b>
+                        
+                        游戏中的事件监听
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.4" data-path="2/4.html">
+            
+                
+                    <a href="../2/4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.4.</b>
+                        
+                        添加游戏背景图片
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.5" data-path="2/5.html">
+            
+                
+                    <a href="../2/5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.5.</b>
+                        
+                        英雄飞机闪亮登场
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2.6" data-path="2/6.html">
+            
+                
+                    <a href="../2/6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.6.</b>
+                        
+                        英雄飞机装备子弹并发射
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="3/33.html">
+            
+                
+                    <a href="../3/33.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        飞机大战模块化处理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.3.1" data-path="3/1.html">
+            
+                
+                    <a href="../3/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.1.</b>
+                        
+                        飞机大战主模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.2" data-path="3/2.html">
+            
+                
+                    <a href="../3/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.2.</b>
+                        
+                        飞机大战地图模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.3" data-path="3/3.html">
+            
+                
+                    <a href="../3/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.3.</b>
+                        
+                        英雄飞机模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.4" data-path="3/4.html">
+            
+                
+                    <a href="../3/4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.4.</b>
+                        
+                        英雄飞机子弹模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.5" data-path="3/5.html">
+            
+                
+                    <a href="../3/5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.5.</b>
+                        
+                        敌机模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.6" data-path="3/6.html">
+            
+                
+                    <a href="../3/6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.6.</b>
+                        
+                        分数模块
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="4/44.html">
+            
+                
+                    <a href="../4/44.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        示例图
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.4.1" data-path="4/1.html">
+            
+                
+                    <a href="../4/1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.1.</b>
+                        
+                        python中的坐标系
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4.2" data-path="4/2.html">
+            
+                
+                    <a href="../4/2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.2.</b>
+                        
+                        游戏效果剖析演示
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4.3" data-path="4/3.html">
+            
+                
+                    <a href="../4/3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.3.</b>
+                        
+                        游戏元素图层结构剖析演示
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Python课程讲义</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="&#x97F3;&#x6548;&#x76F8;&#x5173;&#x64CD;&#x4F5C;">&#x97F3;&#x6548;&#x76F8;&#x5173;&#x64CD;&#x4F5C;</h3>
+<hr>
+<pre><code># &#x52A0;&#x8F7D;&#x80CC;&#x666F;&#x97F3;&#x4E50;
+pygame.mixer.music.load(&quot;./res/bg2.ogg&quot;)
+# &#x5FAA;&#x73AF;&#x64AD;&#x653E;&#x80CC;&#x666F;&#x97F3;&#x4E50;
+pygame.mixer.music.play(-1)
+# &#x505C;&#x6B62;&#x80CC;&#x666F;&#x97F3;&#x4E50;
+pygame.mixer.music.stop()
+
+# &#x52A0;&#x8F7D;&#x97F3;&#x6548;
+boom_sound = pygame.mixer.Sound(&quot;./res/baozha.ogg&quot;)
+# &#x64AD;&#x653E;&#x97F3;&#x6548;
+boom_sound.play()
+# &#x505C;&#x6B62;&#x97F3;&#x6548;
+boom_sound.stop()
+</code></pre><blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;</p>
+<p>1.&#x97F3;&#x6548;&#x548C;&#x97F3;&#x4E50;&#x7684;&#x533A;&#x522B;&#x662F;&#xFF1A;&#x97F3;&#x6548;&#x8981;&#x6574;&#x4E2A;&#x6587;&#x4EF6;&#x8F7D;&#x5165;&#x5230;Sound&#x5BF9;&#x8C61;&#x4E2D;&#x624D;&#x80FD;&#x64AD;&#x653E;&#xFF0C;&#x800C;&#x97F3;&#x4E50;&#x4E0D;&#x7528;&#x5B8C;&#x5168;&#x8F7D;&#x5165;&#xFF0C;&#x800C;&#x4EE5;&#x6D41;&#x7684;&#x65B9;&#x5F0F;&#x64AD;&#x653E;&#x3002;</p>
+<p>2.mixer.Sound()&#x4E0D;&#x76F4;&#x63A5;&#x652F;&#x6301;mp3&#x683C;&#x5F0F;&#x97F3;&#x4E50;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;ogg&#x6216;wav&#x683C;&#x5F0F;&#x7684;&#x97F3;&#x4E50;&#x3002;</p>
+<p>3.&#x97F3;&#x4E50;&#x6587;&#x4EF6;&#x6BD4;&#x8F83;&#x5927;&#xFF0C;&#x97F3;&#x6548;&#x6587;&#x4EF6;&#x5C0F;&#xFF0C;&#x6240;&#x4EE5;&#x8BFB;&#x53D6;&#x7684;&#x65B9;&#x5F0F;&#x4E0D;&#x540C;&#x3002;</p>
+</blockquote>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../1/1.html" class="navigation navigation-prev " aria-label="Previous page: 事件相关操作"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../1/6.html" class="navigation navigation-next " aria-label="Next page: 文字相关操作"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"disqus":{"shortName":"gitbookuse"},"github":{"url":"https://github.com/dododream"},"search-pro":{"cutWordLib":"nodejieba","defineWord":["gitbook-use"]},"sharing":{"weibo":true,"facebook":true,"twitter":true,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"base":"https://github.com/dododream/edit","label":"Edit This Page"},"splitter":{},"toggle-chapters":{},"highlight":{},"search":{"maxIndexSize":1000000},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book Python课程讲义 -->
+</html>
